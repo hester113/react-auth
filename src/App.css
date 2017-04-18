@@ -1,0 +1,99 @@
+.container {
+  font-family: 'Raleway', sans-serif;
+}
+.error {
+  color: red;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.panel-title {
+  text-align: center;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+.all_done {
+  text-align: center;
+}
+.goto{
+  text-align: center;
+}
+#all_done_check {
+
+  font-size: 200px;
+  color: lightgreen;
+}
+.form-control {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
+.progress {
+  margin-top: 10px;
+}
+.panel-info {
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+.App-intro {
+  font-size: large;
+}
+#next {
+  text-align: right;
+}
+#next_btn {
+  cursor: pointer;
+}
+#back_btn {
+  cursor: pointer;
+}
+#date_of_birth{
+  text-align: center;
+}
+#back {
+  text-align: left;
+}
+#gender {
+  text-align: center;
+  width: 34%;
+  cursor: pointer;
+}
+.error {
+  border: red 1px;
+}
+#birth{
+  text-align: center;
+}
+.list-group-horizontal .list-group-item {
+    display: inline-block;
+}
+.list-group-horizontal .list-group-item {
+	margin-bottom: 0;
+	margin-left:-4px;
+	margin-right: 0;
+}
+.list-group-horizontal .list-group-item:first-child {
+	border-top-right-radius:0;
+	border-bottom-left-radius:4px;
+}
+.list-group-horizontal .list-group-item:last-child {
+	border-top-right-radius:4px;
+	border-bottom-left-radius:0;
+}
+#menu1 {
+  text-align: right;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
